@@ -33,7 +33,7 @@ jobs:
         fetch-depth: '0'
 
     - name: Bump version and push tag
-      uses: gha-actions/bump-tag@0.1.1 # Don't use @master or @v1 unless you're happy to test the latest version
+      uses: gha-actions/bump-tag@0.2.0 # Don't use @master or @v1 unless you're happy to test the latest version
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # if you don't want to set write permissions use a PAT token
         WITH_V: false
@@ -62,7 +62,7 @@ jobs:
         fetch-depth: '0'
 
     - name: Bump version and push tag
-      uses: gha-actions/bump-tag@0.1.1 # Don't use @master or @v1 unless you're happy to test the latest version
+      uses: gha-actions/bump-tag@0.2.0 # Don't use @master or @v1 unless you're happy to test the latest version
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # if you don't want to set write permissions use a PAT token
         WITH_V: true
