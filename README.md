@@ -1,6 +1,14 @@
-# bump-tag
+<div align="center">
+	<h1>Bump Tag</h1> 
+	<br>
+	<p>A Github Action to automatically bump and tag master, on merge, with the latest SemVer formatted version.</p>
+	<a href="https://github.com/gha-actions/bump-tag/actions"><img src="https://github.com/gha-actions/bump-tag/workflows/Bump%20version/badge.svg?branch=main" alt="Build status"></a>
+<!-- 	<a href="./coverage/lcov-report/index.html"><img src="https://img.shields.io/coveralls/github/jaynath-d/cc-suite" alt="Coverage status"></a> -->
+	<a href="https://img.shields.io/github/v/tag/gha-actions/bump-tag"><img src="https://img.shields.io/github/v/tag/gha-actions/bump-tag" alt="Stable version"></a>
+	<a href="https://img.shields.io/github/v/release/gha-actions/bump-tag?color=%233D9970"><img src="https://img.shields.io/github/v/release/gha-actions/bump-tag?color=%233D9970" alt="Stable version"></a>
+</div>
 
-A Github Action to automatically bump and tag master, on merge, with the latest SemVer formatted version.
+___
 
 ## Usage
 
