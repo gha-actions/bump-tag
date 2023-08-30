@@ -121,4 +121,3 @@ If `#none` is contained in the merge commit message, it will skip bumping regard
   - Pushes tag to github
   - If triggered on your repo's default branch (`master` or `main` if unchanged), the bump version will be a release tag.
   - If triggered on any other branch, a prerelease will be generated, depending on the bump, starting with `*-<PRERELEASE_SUFFIX>.1`, `*-<PRERELEASE_SUFFIX>.2`, ...
-  - To create a repository release you need another workflow like [automatic-releases](https://github.com/marketplace/actions/automatic-releases).
